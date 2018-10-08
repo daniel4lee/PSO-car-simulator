@@ -19,7 +19,7 @@ class GuiRoot(QWidget):
         self.threadpool = QThreadPool()
         self.setFixedSize(800, 800)
         self.center()
-        self.setWindowTitle('HW 3')      
+        self.setWindowTitle('PSO')      
         self.show()
         #read the map and training data
         self.map_datalist = dataset.keys()
